@@ -5,19 +5,19 @@ import { PieceShape, PuzzleSettings } from '../types/puzzle';
 export const PRESET_IMAGES = [
   {
     title: '富士山と桜',
-    url: '/src/assets/images/puzzle_sample_landscape_1792830812150.jpg',
+    url: new URL('../assets/images/puzzle_sample_landscape_1792830812150.jpg', import.meta.url).href,
   },
   {
     title: '花畑の三毛猫',
-    url: '/src/assets/images/puzzle_sample_cat_1792830812856.jpg',
+    url: new URL('../assets/images/puzzle_sample_cat_1792830812856.jpg', import.meta.url).href,
   },
   {
     title: '夜の街並みと提灯',
-    url: '/src/assets/images/puzzle_sample_city_1792830814028.jpg',
+    url: new URL('../assets/images/puzzle_sample_city_1792830814028.jpg', import.meta.url).href,
   },
   {
     title: '滝と幻想の古城',
-    url: '/src/assets/images/puzzle_sample_castle_1792830812962.jpg',
+    url: new URL('../assets/images/puzzle_sample_castle_1792830812962.jpg', import.meta.url).href,
   },
 ];
 
