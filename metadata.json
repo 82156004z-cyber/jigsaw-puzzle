@@ -1,0 +1,6 @@
+{
+  "name": "画像ジグソーパズル",
+  "description": "ブラウザ内で完結する画像ジグソーパズルゲーム。四角形・本格凹凸ピース、ドラッグ＆ドロップとタップ交換、多彩な背景テーマに対応。",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
