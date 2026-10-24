@@ -5,9 +5,9 @@ import {defineConfig} from 'vite';
 
 export default defineConfig(() => {
   return {
+    base: '/jigsaw-puzzle/',
     plugins: [react(), tailwindcss()],
-    resolve: {
-      alias: {
+    resolve: {      alias: {
         '@': path.resolve(__dirname, '.'),
       },
     },
