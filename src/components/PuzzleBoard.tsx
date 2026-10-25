@@ -462,12 +462,12 @@ export const PuzzleBoard: React.FC<PuzzleBoardProps> = ({
           className="relative w-full max-w-4xl p-3 sm:p-5 rounded-2xl bg-slate-900/80 border border-slate-700/80 shadow-2xl backdrop-blur-sm flex flex-col items-center overflow-visible"
         >
           {/* Workspace Header */}
-          <div className="w-full flex items-center justify-between text-[11px] text-slate-400 mb-2 px-1">
-            <span className="font-semibold text-slate-200">
-              パズル作業台（中央の盤面で吸着・周囲の空きスペースに自由に仮置き可能）
+          <div className="w-full flex items-center justify-between text-[10px] sm:text-[11px] text-slate-400 mb-2 px-1 gap-2">
+            <span className="font-semibold text-slate-200 truncate">
+              パズル作業台（中央盤面で吸着・周囲に仮置き可能）
             </span>
-            <span>
-              {settings.cols}列 × {settings.rows}行（{boardWidth} × {boardHeight} px）
+            <span className="shrink-0 font-mono text-slate-400">
+              {settings.cols}×{settings.rows}（{boardWidth}×{boardHeight}px）
             </span>
           </div>
 

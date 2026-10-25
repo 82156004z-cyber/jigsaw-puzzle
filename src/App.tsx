@@ -11,6 +11,7 @@ import { SamplePreviewModal } from './components/SamplePreviewModal';
 import { ConfirmModal } from './components/ConfirmModal';
 import { PauseOverlay } from './components/PauseOverlay';
 import { VictoryModal } from './components/VictoryModal';
+import { OrientationBanner } from './components/OrientationBanner';
 
 export default function App() {
   // Theme state with localStorage persistence
@@ -283,6 +284,9 @@ export default function App() {
         onRequestRestart={handleRequestRestart}
         onRequestChangeImage={handleRequestChangeImage}
       />
+
+      {/* Mobile Landscape Recommendation Banner */}
+      <OrientationBanner />
 
       {/* Main Workspace Container */}
       <main className="relative flex-1 flex flex-col items-center justify-start p-2 sm:p-4 max-w-7xl mx-auto w-full">
